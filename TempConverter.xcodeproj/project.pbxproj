@@ -17,7 +17,7 @@
 		3699803A16E95055003F6B7D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3699803916E95055003F6B7D /* Default@2x.png */; };
 		3699803C16E95055003F6B7D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3699803B16E95055003F6B7D /* Default-568h@2x.png */; };
 		3699803F16E95055003F6B7D /* TempConverterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3699803E16E95055003F6B7D /* TempConverterViewController.m */; };
-		3699804216E95055003F6B7D /* TempConverterViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3699804016E95055003F6B7D /* TempConverterViewController_iPhone.xib */; };
+		3699804216E95055003F6B7D /* TempConverterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3699804016E95055003F6B7D /* TempConverterViewController.xib */; };
 		3699804516E95055003F6B7D /* TempConverterViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3699804316E95055003F6B7D /* TempConverterViewController_iPad.xib */; };
 /* End PBXBuildFile section */
 
@@ -37,7 +37,7 @@
 		3699803B16E95055003F6B7D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		3699803D16E95055003F6B7D /* TempConverterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TempConverterViewController.h; sourceTree = "<group>"; };
 		3699803E16E95055003F6B7D /* TempConverterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TempConverterViewController.m; sourceTree = "<group>"; };
-		3699804116E95055003F6B7D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TempConverterViewController_iPhone.xib; sourceTree = "<group>"; };
+		3699804116E95055003F6B7D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TempConverterViewController.xib; sourceTree = "<group>"; };
 		3699804416E95055003F6B7D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TempConverterViewController_iPad.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -89,7 +89,7 @@
 				3699803516E95055003F6B7D /* TempConverterAppDelegate.m */,
 				3699803D16E95055003F6B7D /* TempConverterViewController.h */,
 				3699803E16E95055003F6B7D /* TempConverterViewController.m */,
-				3699804016E95055003F6B7D /* TempConverterViewController_iPhone.xib */,
+				3699804016E95055003F6B7D /* TempConverterViewController.xib */,
 				3699804316E95055003F6B7D /* TempConverterViewController_iPad.xib */,
 				3699802C16E95055003F6B7D /* Supporting Files */,
 			);
@@ -166,7 +166,7 @@
 				3699803816E95055003F6B7D /* Default.png in Resources */,
 				3699803A16E95055003F6B7D /* Default@2x.png in Resources */,
 				3699803C16E95055003F6B7D /* Default-568h@2x.png in Resources */,
-				3699804216E95055003F6B7D /* TempConverterViewController_iPhone.xib in Resources */,
+				3699804216E95055003F6B7D /* TempConverterViewController.xib in Resources */,
 				3699804516E95055003F6B7D /* TempConverterViewController_iPad.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -195,12 +195,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		3699804016E95055003F6B7D /* TempConverterViewController_iPhone.xib */ = {
+		3699804016E95055003F6B7D /* TempConverterViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				3699804116E95055003F6B7D /* en */,
 			);
-			name = TempConverterViewController_iPhone.xib;
+			name = TempConverterViewController.xib;
 			sourceTree = "<group>";
 		};
 		3699804316E95055003F6B7D /* TempConverterViewController_iPad.xib */ = {

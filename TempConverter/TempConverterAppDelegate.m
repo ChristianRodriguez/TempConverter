@@ -17,12 +17,19 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-        self.viewController = [[TempConverterViewController alloc] initWithNibName:@"TempConverterViewController_iPhone" bundle:nil];
+        self.tempviewController = [[TempConverterViewController alloc] initWithNibName:@"TempConverterViewController" bundle:nil];
     } else {
-        self.viewController = [[TempConverterViewController alloc] initWithNibName:@"TempConverterViewController_iPad" bundle:nil];
+        self.tempviewController = [[TempConverterViewController alloc] initWithNibName:@"TempConverterViewController_iPad" bundle:nil];
     }
-    self.window.rootViewController = self.viewController;
+    self.window.rootViewController = self.tempviewController;
     [self.window makeKeyAndVisible];
+    
+  
+    
+    
+    
+    
+    
     return YES;
 }
 

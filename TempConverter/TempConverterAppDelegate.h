@@ -11,9 +11,13 @@
 @class TempConverterViewController;
 
 @interface TempConverterAppDelegate : UIResponder <UIApplicationDelegate>
+{
+    //add instance variable
+    TempConverterViewController *tempConverterViewController;
+}
 
 @property (strong, nonatomic) UIWindow *window;
-
-@property (strong, nonatomic) TempConverterViewController *viewController;
+// turns instance into a property
+@property (strong, nonatomic) TempConverterViewController *tempviewController;
 
 @end

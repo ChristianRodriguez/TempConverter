@@ -10,6 +10,11 @@
 
 @interface TempConverterViewController ()
 
+#define Farenheit = 1;
+#define Celcius = 0;
+
+
+
 @end
 
 @implementation TempConverterViewController
